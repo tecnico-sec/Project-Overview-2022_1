@@ -65,9 +65,9 @@ The official topic selection list will be posted after the process is concluded,
 After having a topic assigned, your group should prepare a proposal document.
 The project proposal should describe the problem and the proposed solution.
 
-Please bring a draft of the proposal to your lab session or office hours to present it and receive feedback.  
+You can bring a draft of the proposal to your lab session or office hours to present it and receive feedback.  
 
-### 2.3.1. Technical requirements
+### 2.3.1. Technical core requirements
 
 The planned project will need to have, _at least_:
 
@@ -75,61 +75,64 @@ The planned project will need to have, _at least_:
 - a secure communication tunnel (e.g. TLS, SSH) using correct configuration;
 - the design and deployment of one mechanism using a custom security protocol.
 
-### 2.3.2. Versions
-
-The proposal should describe three versions of the work: _basic_, _intermediate_ and _advanced_.  
-The basic version is the minimum security functionality.  
-The intermediate version includes the most important security mechanisms.  
-The advanced version addresses a wider range of attacks.
-
-### 2.3.3. Document requirements
+### 2.3.2. Document requirements
 
 - PDF format;
 - Mandatory file name `CXX_WWW_HHMM_L_proposal.pdf`
 (where `C` is A for Alameda, T for Tagus, `XX` is the Fenix group number with two digits, `WWW` is the weekday of the lab shift – Mon, Tue, Wed, Thu, Fri – `HHMM` is the time – Hours and Minutes – and `L` is the lab room number);
 - Report cover: Project title. Headed by course name, group campus, group number.
 In the next row: group members sorted by ascending student number.
-For each student, include the number, name and professional photo;
+For each student, include the number, name and professional photo with face clearly visible;
 - Report body: The font should be no smaller than 11pt, with standard line and character spacing;
-- Limit 4 pages (excluding cover);
+- Limit of 4 pages (excluding cover);
 - Pages should be numbered (preferably with a label like `Page X of Y`);
-- The use of diagrams (such as UML) is recommended for clear and concise communication.
+- The use of UML diagrams (or other standard notations) is recommended for clear and concise communication.
 
-### 2.3.4. Document structure (mandatory)
+### 2.3.3. Document structure (mandatory)
 
 1. Problem  
 _Given the chosen scenario, where is security necessary?_  
 _What is the main problem being solved?_  
 Use around 200 words.  
-  1.1. Requirements  
+  1.1. Solution Requirements  
   _Which security requirements were identified for the solution?_  
-  Present as a list.  
+  Present as a list.  Identify each requirement with R1, R2, ...  
   1.2. Trust assumptions  
   _Who will be fully trusted, partially trusted, or untrusted?_  
   Write down the trust relationships to make them explicit.  
 2. Proposed solution  
   2.1. Overview  
-  Diagram and explanation with at most 200 words.  
+  _What are the main components of the solution? How do they relate?_  
+  Diagram and explanation with, at most, 200 words.  
+  If you do not use UML or another standard notation, include a legend.  
   2.2. Deployment  
   Describe distinct machines and how they will be interconnected.  
   2.3. Secure channel(s) to configure  
+  _Who will communicate?_  
   Identify communication entities.  
-  Choose existing TLS or SSH library/tool to use.
-  What keys will exist and how will they be distributed.  
+  _What existing security protocol will be used?_  
+  Choose existing TLS or SSH library/tool to use.  
+  _What keys will exist and how will they be distributed?_  
   2.4. Secure protocol(s) to develop  
   _Who will communicate?_  
   Identify communication entities and the messages they exchange with a sequence or collaboration diagram.  
+  _Which security properties will be protected_?  
   Identify the security properties to ensure.  
-  Choose language for implementation.  
   _What keys will exist and how will they be distributed?_  
-3. Plan  
-  3.1. Versions  
-  Describe basic, intermediate and advanced versions of the work and when are they expected to be achieved.  
-  3.2. Effort commitments  
-  Table containing one row per week until the submission date and one column per group member with expected activities for the given week.  
-  Some cells may be left blank because of work in other courses.  
-4. References  
-Tools, libraries, and other references that will be used in the project.  
+3. Considered technologies  
+  Choose programming platform(s) for implementation.  
+  Identify languages, libraries, tools, etc.  
+  These choices are not final.
+4. Plan  
+  4.1. Milestones  
+  Describe _basic_, _intermediate_ and _advanced_ versions of the work and when are they expected to be achieved.  
+  The basic version is the minimum security functionality.  
+  The intermediate version includes the most important security mechanisms.  
+  The advanced version should address more attacks.  
+  4.2. Effort commitments  
+  Table containing one row per development week and one column per group member with expected activities for the given week.  
+5. References  
+  Bibliographic references cited in the project proposal.  
 
 ## 2.4. Await approval
 
@@ -140,13 +143,14 @@ The proposal document will need to be approved by the course faculty.
 Develop basic, intermediate and advanced versions over the project weeks.
 
 Attend the lab sessions to present your ongoing development and receive early feedback from the professor.
-A security project that receives regular feedback can be improved earlier and is more likely to get a better grade.
+A security project that receives regular feedback can be improved earlier and is more likely to achieve a better result.
 
 ## 2.6. Prepare demonstration
 
 IMPORTANT: once your team achieves the intermediate version of the work, start preparing the demonstration.
 
-Write a `README` file with step-by-step instructions on how to run your project.
+Write a `README` file with step-by-step instructions on how to run your project
+(suggested [README template](https://gist.github.com/miguelpardal/36f6ef7864bfdeabe5c57b161aa80f2f)).  
 Record screenshots, screencasts or similar artifacts showing your project in action.
 
 ## 2.7. Write report
@@ -167,8 +171,9 @@ The report document should update and extend the proposal document to reflect wh
 
 Same as the proposal, with the following differences:
 
-- All sections must be revised and updated;
-- Replace _Plan_ with _Results_: state what was actually achieved, with mention of strengths and weaknesses, and justification of implementation choices.
+- Replace _Considered Technologies_ with _Used Technologies_: state what was actually used;
+- Replace _Plan_ with _Results_: state what was actually achieved. For each requirement - R1, R2, ... - state if it was satisfied, partially satisfied, or not satisfied; with a brief justification for each one.
+Justify main implementation choices.
 
 ## 2.8. Submit code and report
 
@@ -180,8 +185,7 @@ IMPORTANT: the code archive and the report are submitted separately on the Féni
 
 - ZIP format - without compiled code, only source and build scripts;
 - The mandatory file name is `CXX_WWW_HHMM_L_solution.zip`;
-- README file, describing the required platform (e.g. Linux 64-bit, Ubuntu 18.04.1 LTS, Java 8u181) and setup instructions.
-Suggested [README template](https://gist.github.com/miguelpardal/36f6ef7864bfdeabe5c57b161aa80f2f);
+- README file, describing the required platform (e.g., Linux 64-bit, Ubuntu 20.04.3 LTS, Java 8u181) and setup instructions;
 - All configuration files and scripts required to configure the solution on the specified platform;
 - All developed source code;
 - Existing tests and example files.
@@ -212,10 +216,9 @@ It is highly recommended that each presentation includes:
 
 - a slide with the general architecture;
 - a slide with the key distribution and management mechanism, when appropriate;
-- a slide with the general protocol/architecture.
+- a slide with the developed protocol.
 
-Each group member must participate and talk in the presentation, and be prepared to answer individual questions.
-
+Each group member must participate and talk in the presentation, and be prepared to answer individual questions.  
 If necessary, a more detailed discussion will be scheduled with each group.
 
 ### 2.10.2. Presence
