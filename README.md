@@ -223,8 +223,6 @@ If necessary, a more detailed discussion will be scheduled with each group.
 The presentations are done by the whole group, in person, on campus.
 Each group must attend from the beginning of their assigned session and remain for the duration of it.
 
-
-
 ### 2.10.3. Presentation archive requirements
 
 IMPORTANT: after making the presentation, you will have to submit the presentation and video on Fénix.
@@ -255,12 +253,12 @@ The relevant dates for the project are shown in the following calendar.
 | 2. Pick topic              | Topic list published: Monday, December 6th<br />Form opens: Thursday, December 9th, 13:00<br />**Closes: Friday, December 10th, 17:00** |
 | 3. Write proposal          | **Submit: Friday, December 17th, 17:00** |
 | 4. Await approval          | Week of December 20th |
-| 5. Develop project         | During the weeks of January 3rd - 10th - 17th, 2022, articulated with other coursework |
+| 5. Develop project         | During the weeks of January 10th - 17th - 24th, 2022, articulated with other coursework |
 | 6. Prepare demonstration   | Start preparing once you have the intermediate version of the work |
 | 7. Write report            | Update as you complete basic, intermediate and advanced versions |
-| 8. Submit code and report  | **Friday, January 21st, 17:00** |
-| 9. Check presentation session | Opens: Wednesday, January 19th<br />**Changes close: Friday, December 21st, 18:00** |
-| 10. Present and defend     | Sessions start Monday, January 24th |
+| 8. Submit code and report  | **Friday, January 28th, 17:00** |
+| 9. Check presentation session | Opens: Wednesday, January 26th<br />**Changes close: Friday, December 28th, 18:00** |
+| 10. Present and defend     | Sessions start Monday, January 31st |
 
 ----
 
