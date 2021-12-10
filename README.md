@@ -120,9 +120,7 @@ Use around 200 words.
   Identify the security properties to ensure.  
   _What keys will exist and how will they be distributed?_  
 3. Considered technologies  
-  Choose programming platform(s) for implementation.  
-  Identify languages, libraries, tools, etc.  
-  These choices are not final.
+  Succinctly describe the technologies that are being considered, e.g., programming languages, frameworks, libraries, tools, etc.
 4. Plan  
   4.1. Milestones  
   Describe _basic_, _intermediate_ and _advanced_ versions of the work and when are they expected to be achieved.  
@@ -130,7 +128,9 @@ Use around 200 words.
   The intermediate version includes the most important security mechanisms.  
   The advanced version should address more attacks.  
   4.2. Effort commitments  
-  Table containing one row per development week and one column per group member with expected activities for the given week.  
+  Include a Gantt chart describing the planned tasks and how much time is allocated to the implementation  
+  (for example, consider a total of ~180 Person/hour, i.e., 3 weeks for a team of 3 people, each with 50% allocation of a 40-hour work week).  
+  This Gantt chart should illustrate the tasks for the different milestones and the expected conclusion date for each.  
 5. References  
   Bibliographic references cited in the project proposal.  
 
