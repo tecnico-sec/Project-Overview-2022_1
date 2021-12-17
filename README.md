@@ -260,7 +260,7 @@ The relevant dates for the project are shown in the following calendar.
 | 6. Prepare demonstration   | Start preparing once you have the intermediate version of the work |
 | 7. Write report            | Update as you complete basic, intermediate and advanced versions |
 | 8. Submit code and report  | **Friday, January 28th, 17:00** |
-| 9. Check presentation session | Opens: Wednesday, January 26th<br />**Changes close: Friday, December 28th, 18:00** |
+| 9. Check presentation session | Opens: Wednesday, January 26th<br />**Changes close: Friday, January 28th, 18:00** |
 | 10. Present and defend     | Sessions start Monday, January 31st |
 
 ----
